@@ -1,4 +1,4 @@
-stix = list(input().split())
+stix = input().split()
 glasnie = {1: "АОУЫЭЕЁИЮЯаоуыэеёиюя"}
 summ = 0
 for i in range(0, len(stix)):
