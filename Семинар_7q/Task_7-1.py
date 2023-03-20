@@ -1,7 +1,7 @@
 stix = input().split()
 glasnie = {1: "АОУЫЭЕЁИЮЯаоуыэеёиюя"}
 summ = 0
-for i in range(0, len(stix)):
+for i in range(len(stix)):
     for j in stix[i]:
         for k, v in glasnie.items():
             if j in v:
